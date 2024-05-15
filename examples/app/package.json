@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "study-cli": "study-cli"
+  },
+  "keywords": [],
+  "author": "lucia.chen",
+  "license": "ISC",
+  "dependencies": {
+    "@lucia.chen/study-cli": "workspace:*"
+  }
+}

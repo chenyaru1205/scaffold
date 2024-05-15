@@ -1,0 +1,18 @@
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <!-- 告知部分国产浏览器采用高速模式渲染页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>{{ routeIndex }}</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but spsPmsIndex doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="<%= process.env.VUE_APP_SYS_NAME %>"></div>
+    <!-- 如果子系统加载异常，未返回本页面而是返回主系统的index.html,请直接联系运维 -->
+  </body>
+</html>
